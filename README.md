@@ -20,9 +20,11 @@ Apply multimedia elements such as audio and video.
 >- Proper labels and placeholders.
 >- Required fields and validation attributes.
 >- Ensure proper indentation and commenting.
- 
+
 # Tasks
 - Create a well-structured HTML5 document.
 - Ensure semantic correctness.
 
 Happy Coding! 💻✨
+
+Added Imaage of the output i have  
