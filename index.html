@@ -8,8 +8,8 @@
 <body>
 
 <!-- orderedlist with roman numerals -->
-<div style="max-width: 600px; margin: 20px auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px;">
-    <h2 style="text-align: center;">Ordered List with Roman Numerals</h2>
+<div >
+    <h2 >Ordered List with Roman Numerals</h2>
     <ol type="I">
         <li>Item 1</li>
         <li>Item 2</li>
@@ -20,11 +20,10 @@
 </div>
  <caption style="font-size: 1.5em; margin-bottom: 10px;">Image from pexels</caption>
 <!-- external image from pexels-->
- <img src="https://images.pexels.com/photos/247851/pexels-photo-247851.jpeg?auto=compress&cs=tinysrgb&w=800" alt="external image from pexels"
-style="width: 100%; height: auto; max-width: 600px; display: block; margin: 0 auto;" >
+ <img src="https://images.pexels.com/photos/247851/pexels-photo-247851.jpeg?auto=compress&cs=tinysrgb&w=800" alt="external image from pexels" >
 
 <!--added table of 5 contacts-->
-<table style="width: 100%; border-collapse: collapse; margin: 20px auto; text-align: left; border: 1px solid black;">
+<table >
     <caption style="font-size: 1.5em; margin-bottom: 10px;">Contact List</caption>
     <tr>
         <th style="border: 1px solid black;">Name</th>
@@ -72,25 +71,34 @@ style="width: 100%; height: auto; max-width: 600px; display: block; margin: 0 au
 
 <!-- Registration form -->
   <caption style="font-size: 1.5em; text-align: center; margin-bottom: 10px;">registration form</caption>
-<form action="submit" style="max-width: 600px; margin: 20px auto; padding: 20px; border: 1px solid #ccc; border-radius: 5px;">
+<form action="submit" >
     <!-- Name field -->
     <label for="name">Name:</label>
-    <input type="text" id="name" name="name" placeholder="Enter your name" required style="display: block; width: 100%; margin-bottom: 10px;">
+    <input type="text" id="name" name="name" placeholder="Enter your name" required >
 
     <!-- Email field -->
     <label for="email">Email:</label>
-    <input type="email" id="email" name="email" placeholder="Enter your email" required style="display: block; width: 100%; margin-bottom: 10px;">
+    <input type="email" id="email" name="email" placeholder="Enter your email" required >
 
     <!-- Password field -->
     <label for="password">Password:</label>
-    <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6" style="display: block; width: 100%; margin-bottom: 10px;">
+    <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6" >
 
     <!-- Date field -->
     <label for="dob">Date of Birth:</label>
-    <input type="date" id="dob" name="dob" required style="display: block; width: 100%; margin-bottom: 10px;">
+    <input type="date" id="dob" name="dob" required >
 
     <!-- Dropdown field -->
     <label for="country">Country:</label>
-    <select id="country" name="country" required style="display: block; width: 100%; margin-bottom: 10px;"></select>
+    <select id="country" name="country" required >
+        <option value="" disabled selected>Select your country</option>
+        <option value="USA">USA</option>
+        <option value="Canada">Canada</option>
+        <option value="UK">UK</option>
+        <option value="Australia">Australia</option>
+        <option value="India">India</option>
+    </select>
+
+    <button type="submit">submit</button>
 </body>
 </html>
